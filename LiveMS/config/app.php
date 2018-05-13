@@ -160,6 +160,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // 2018-05-13 Swoole支持库
+        Hhxsv5\LaravelS\Illuminate\LaravelSServiceProvider::class,
+
     ],
 
     /*
